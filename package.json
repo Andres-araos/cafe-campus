@@ -1,0 +1,28 @@
+{
+  "name": "cafe-campus",
+  "private": true,
+  "version": "0.3.0",
+  "type": "module",
+  "description": "Café Campus: pedidos anticipados, tablero de barra y cierre de caja para una cafetería universitaria",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.119.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "vite": "^5.4.21",
+    "vitest": "^2.1.9"
+  }
+}
